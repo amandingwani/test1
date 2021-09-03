@@ -1,6 +1,8 @@
 // Warning: This is a bad code example for the article "guideline for modular firmware".
 //          Please never write code like this!
 
+#include <Arduino.h>
+
 const uint8_t cMaxLevel = 0x20;
 const uint8_t cModeCount = 4;
 const uint8_t cShiftSpeed = 8;
